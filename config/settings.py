@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,9 +24,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%ya59%2klyfskq2_6wye3kt9nghm%1y+*&%e2pdi$v@x41jq7w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+]
 
 
 # Application definition
@@ -139,3 +143,34 @@ LOGIN_REDIRECT_URL = "/"
 SESSION_COOKIE_AGE = 60 * 30
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 SESSION_SAVE_EVERY_REQUEST = True
+
+
+LOGGING = {
+    "version" : 1,
+    "disable_existing_loggers" : False,
+    
+    "formatters" : {
+        "verbose" : {
+            "format" : "[{asctime}] [{levelname}] {name} - {message}",
+            "style" : "{",
+        },
+    },
+    
+    "handlers" : {
+        "daily_file" : {
+            "class" : "logging.handlers.TimedRotatingFileHandler",
+            "level" : "INFO",
+            "filename" :  os.path.join(BASE_DIR, "logs/app.log"),
+            "when" : "midnight",
+            "interval" : 1,
+            "backupCount" : 14,
+            "encoding" : "utf-8",
+            "formatter" : "verbose",
+        },
+    },
+    
+    "root" : {
+        "handlers" : ["daily_file"],
+        "level" : "INFO",
+    },
+}

@@ -41,11 +41,13 @@ def search(request) :
     return JsonResponse(data, safe=False)
 
 class DepartmentsListView(ListView) :
+    
     model = Departments
     template_name = "departments/department_list.html"
     context_object_name = "departments"
     
     def get_queryset(self):
+        raise Exception
         queryset = super().get_queryset()
         dept_no = self.request.GET.get("dept_no")
 

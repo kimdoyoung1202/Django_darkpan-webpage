@@ -47,7 +47,7 @@
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-secondary navbar-dark">
                 <a href="{% url 'dashboard:home' %}" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary"><img src="{% static 'img/ktech.png' %}" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;">KTECH</h3>
+                    <h3 class="text-primary"><img src="{% static 'img/dog.png' %}" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 10px;">KTECH</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
@@ -197,6 +197,9 @@
 
             {% block chart %}
             {% endblock chart %}
+
+            {% block error %}
+            {% endblock error %}
                 
             
             <!-- Table End -->
