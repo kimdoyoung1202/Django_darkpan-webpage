@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-fluid pt-4 px-4">
+        <div class="row g-4">
+        <div class="col-sm-12 col-xl-12">
+        <div class="bg-secondary rounded h-100 p-4">
+        <table class="table table-hover mb-0">
+            <thead class="text-white border-bottom">
+                <tr>
+                    <th font-size= 30px>부서번호</th>
+                    <th>부서이름</th>
+                    <th>관리</th>
+                </tr>
+            </thead>
+            <tbody>
+                {%for department in departments%}
+                <tr>
+                    <td><a href="{% url 'departments:department_update' department.dept_no %}">{{department.dept_no}}</a></td>
+                    <td>{{department.dept_name}}</td>
+                    <td>
+                        <form method="post" action="{% url 'departments:department_delete' department.dept_no %}" onsubmit="return confirm('정말 삭제 하시겠습니까?');">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-primary w-50"> 삭제 </button>
+                        </form>
+                    </td>
+                </tr>
+                {%empty%}
+                <tr>
+                    <td colspan="2">조회 결과가 없습니다</td>
+                </tr>
+                {%endfor%}
+            </tbody>
+        </table>
+    </div>
+    </div>
+</div>
+</div>
+{% endblock content %}
