@@ -47,7 +47,7 @@ class DepartmentsListView(ListView) :
     context_object_name = "departments"
     
     def get_queryset(self):
-        raise Exception
+        
         queryset = super().get_queryset()
         dept_no = self.request.GET.get("dept_no")
 

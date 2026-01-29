@@ -413,3 +413,132 @@ Exception
 [2026-01-29 14:13:55,631] [INFO] dashboard.views - Login : KImDoyoung
 [2026-01-29 14:13:57,975] [WARNING] django.request - Not Found: /blank.html
 [2026-01-29 14:13:58,997] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 14:45:13,353] [INFO] dashboard.views - Login : 
+[2026-01-29 14:45:13,410] [WARNING] django.request - Not Found: /static/lib/owlcarousel/assets/owl.carousel.min.css
+[2026-01-29 14:45:13,417] [WARNING] django.request - Not Found: /static/css/style.css
+[2026-01-29 14:45:13,426] [WARNING] django.request - Not Found: /static/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css
+[2026-01-29 14:45:13,428] [WARNING] django.request - Not Found: /static/img/dog.png
+[2026-01-29 14:45:13,428] [WARNING] django.request - Not Found: /static/css/bootstrap.min.css
+[2026-01-29 14:45:13,429] [WARNING] django.request - Not Found: /static/lib/chart/chart.min.js
+[2026-01-29 14:45:13,463] [WARNING] django.request - Not Found: /static/lib/waypoints/waypoints.min.js
+[2026-01-29 14:45:13,494] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js
+[2026-01-29 14:45:13,506] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/moment-timezone.min.js
+[2026-01-29 14:45:13,506] [WARNING] django.request - Not Found: /static/lib/easing/easing.min.js
+[2026-01-29 14:45:13,511] [WARNING] django.request - Not Found: /static/lib/owlcarousel/owl.carousel.min.js
+[2026-01-29 14:45:13,520] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/moment.min.js
+[2026-01-29 14:45:13,527] [WARNING] django.request - Not Found: /static/js/main.js
+[2026-01-29 14:45:13,556] [WARNING] django.request - Not Found: /static/img/dog.png
+[2026-01-29 14:45:19,069] [INFO] dashboard.views - Login : 
+[2026-01-29 14:45:19,123] [WARNING] django.request - Not Found: /static/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css
+[2026-01-29 14:45:19,130] [WARNING] django.request - Not Found: /static/css/bootstrap.min.css
+[2026-01-29 14:45:19,131] [WARNING] django.request - Not Found: /static/lib/owlcarousel/assets/owl.carousel.min.css
+[2026-01-29 14:45:19,136] [WARNING] django.request - Not Found: /static/css/style.css
+[2026-01-29 14:45:19,147] [WARNING] django.request - Not Found: /static/lib/chart/chart.min.js
+[2026-01-29 14:45:19,159] [WARNING] django.request - Not Found: /static/img/dog.png
+[2026-01-29 14:45:19,167] [WARNING] django.request - Not Found: /static/lib/easing/easing.min.js
+[2026-01-29 14:45:19,196] [WARNING] django.request - Not Found: /static/lib/waypoints/waypoints.min.js
+[2026-01-29 14:45:19,203] [WARNING] django.request - Not Found: /static/lib/owlcarousel/owl.carousel.min.js
+[2026-01-29 14:45:19,208] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/moment.min.js
+[2026-01-29 14:45:19,215] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js
+[2026-01-29 14:45:19,215] [WARNING] django.request - Not Found: /static/js/main.js
+[2026-01-29 14:45:19,215] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/moment-timezone.min.js
+[2026-01-29 14:45:28,291] [INFO] django.utils.autoreload - Watching for file changes with StatReloader
+[2026-01-29 14:45:46,998] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 14:45:47,054] [WARNING] django.request - Not Found: /static/lib/chart/chart.min.js
+[2026-01-29 14:45:47,059] [WARNING] django.request - Not Found: /static/css/style.css
+[2026-01-29 14:45:47,060] [WARNING] django.request - Not Found: /static/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css
+[2026-01-29 14:45:47,061] [WARNING] django.request - Not Found: /static/lib/owlcarousel/assets/owl.carousel.min.css
+[2026-01-29 14:45:47,066] [WARNING] django.request - Not Found: /static/css/bootstrap.min.css
+[2026-01-29 14:45:47,071] [WARNING] django.request - Not Found: /static/img/dog.png
+[2026-01-29 14:45:47,116] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/moment.min.js
+[2026-01-29 14:45:47,122] [WARNING] django.request - Not Found: /static/lib/easing/easing.min.js
+[2026-01-29 14:45:47,126] [WARNING] django.request - Not Found: /static/lib/waypoints/waypoints.min.js
+[2026-01-29 14:45:47,130] [WARNING] django.request - Not Found: /static/lib/owlcarousel/owl.carousel.min.js
+[2026-01-29 14:45:47,136] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/moment-timezone.min.js
+[2026-01-29 14:45:47,139] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js
+[2026-01-29 14:45:47,158] [WARNING] django.request - Not Found: /static/js/main.js
+[2026-01-29 14:45:47,184] [WARNING] django.request - Not Found: /static/img/dog.png
+[2026-01-29 14:46:38,721] [INFO] django.utils.autoreload - Watching for file changes with StatReloader
+[2026-01-29 14:46:59,376] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 14:46:59,449] [WARNING] django.request - Not Found: /static/lib/owlcarousel/assets/owl.carousel.min.css
+[2026-01-29 14:46:59,460] [WARNING] django.request - Not Found: /static/css/style.css
+[2026-01-29 14:46:59,460] [WARNING] django.request - Not Found: /static/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css
+[2026-01-29 14:46:59,474] [WARNING] django.request - Not Found: /static/img/dog.png
+[2026-01-29 14:46:59,475] [WARNING] django.request - Not Found: /static/css/bootstrap.min.css
+[2026-01-29 14:46:59,475] [WARNING] django.request - Not Found: /static/lib/chart/chart.min.js
+[2026-01-29 14:46:59,478] [WARNING] django.request - Not Found: /static/lib/easing/easing.min.js
+[2026-01-29 14:46:59,561] [WARNING] django.request - Not Found: /static/lib/waypoints/waypoints.min.js
+[2026-01-29 14:46:59,565] [WARNING] django.request - Not Found: /static/lib/owlcarousel/owl.carousel.min.js
+[2026-01-29 14:46:59,566] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js
+[2026-01-29 14:46:59,568] [WARNING] django.request - Not Found: /static/js/main.js
+[2026-01-29 14:46:59,572] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/moment.min.js
+[2026-01-29 14:46:59,573] [WARNING] django.request - Not Found: /static/lib/tempusdominus/js/moment-timezone.min.js
+[2026-01-29 14:46:59,627] [WARNING] django.request - Not Found: /static/img/dog.png
+[2026-01-29 14:47:29,770] [INFO] django.utils.autoreload - E:\ai1_django\employees\views.py changed, reloading.
+[2026-01-29 14:47:30,674] [INFO] django.utils.autoreload - Watching for file changes with StatReloader
+[2026-01-29 14:51:43,337] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 14:51:47,315] [WARNING] django.request - Not Found: /employees/search-cbv/signup.html
+[2026-01-29 14:51:49,077] [ERROR] django.request - Internal Server Error: /departments/search-list/
+Traceback (most recent call last):
+  File "E:\ai1_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\ai1_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ai1_django\.venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ai1_django\.venv\Lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\ai1_django\.venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ~~~~~~~~~~~~~~~~~^^
+  File "E:\ai1_django\departments\views.py", line 50, in get_queryset
+    raise Exception
+Exception
+[2026-01-29 14:58:34,013] [INFO] django.utils.autoreload - E:\ai1_django\config\settings.py changed, reloading.
+[2026-01-29 14:58:34,898] [INFO] django.utils.autoreload - Watching for file changes with StatReloader
+[2026-01-29 14:58:55,311] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 14:59:50,354] [WARNING] django.request - Not Found: /favicon.ico
+[2026-01-29 15:01:14,332] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:04:56,838] [WARNING] django.request - Not Found: /favicon.ico
+[2026-01-29 15:06:13,892] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:06:15,790] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:07:52,989] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:07:59,090] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:09:31,391] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:10:31,986] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:10:34,401] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:13:11,244] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:14:28,457] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:15:13,531] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:22:33,320] [INFO] django.utils.autoreload - E:\ai1_django\dashboard\views.py changed, reloading.
+[2026-01-29 15:22:34,196] [INFO] django.utils.autoreload - Watching for file changes with StatReloader
+[2026-01-29 15:23:32,935] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:40:10,197] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:40:11,196] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:40:11,926] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:40:12,341] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:40:12,756] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:40:14,156] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:40:29,747] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:40:32,370] [INFO] dashboard.views - Login : KImDoyoung
+[2026-01-29 15:41:52,346] [ERROR] django.request - Internal Server Error: /departments/search-list/
+Traceback (most recent call last):
+  File "E:\ai1_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\ai1_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\ai1_django\.venv\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\ai1_django\.venv\Lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\ai1_django\.venv\Lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+                       ~~~~~~~~~~~~~~~~~^^
+  File "E:\ai1_django\departments\views.py", line 50, in get_queryset
+    raise Exception
+Exception
+[2026-01-29 15:41:52,491] [WARNING] django.request - Not Found: /favicon.ico
+[2026-01-29 15:42:11,633] [INFO] django.utils.autoreload - E:\ai1_django\departments\views.py changed, reloading.
+[2026-01-29 15:42:12,567] [INFO] django.utils.autoreload - Watching for file changes with StatReloader

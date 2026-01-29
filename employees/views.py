@@ -78,6 +78,7 @@ def child_test(request) :
 class EmployeesSearchView(ListView):
     model = Employees
     template_name = "employees/employees_search.html"
+    paginate_by = 20
     
     
 class EmployeesCreateView(CreateView) :

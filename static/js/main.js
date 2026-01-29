@@ -102,7 +102,7 @@
             datasets: [{
                     label: "Salse",
                     data: [15, 30, 55, 45, 70, 65, 85],
-                    backgroundColor: "rgba(235, 22, 22, .7)",
+                    backgroundColor: "rgba(230, 25, 25, 0.7)",
                     fill: true
                 },
                 {
@@ -118,19 +118,20 @@
         }
     });
     
-
+    const lables = JSON.parse(document.getElementById("chart-labels").textContent);
+    const datas = JSON.parse(document.getElementById("chart-data").textContent);
 
     // Single Line Chart
     var ctx3 = $("#line-chart").get(0).getContext("2d");
     var myChart3 = new Chart(ctx3, {
-        type: "line",
+        type: "bar",
         data: {
-            labels: [50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150],
+            labels: lables,
             datasets: [{
                 label: "Salse",
                 fill: false,
-                backgroundColor: "rgba(235, 22, 22, .7)",
-                data: [7, 8, 8, 9, 9, 9, 10, 11, 14, 14, 15]
+                backgroundColor: "rgba(133, 188, 240, 0.7)",
+                data: datas
             }]
         },
         options: {

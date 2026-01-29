@@ -40,4 +40,7 @@
                     </div>
                 </div>
             </div>
+
+            {{ chart_labels|json_script:"chart-labels" }}
+            {{ chart_data|json_script:"chart-data" }}
 {% endblock chart %}
