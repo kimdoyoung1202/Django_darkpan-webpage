@@ -66,7 +66,6 @@ class EmployeesView(View) :
         context = {"employees" : qs}
         
         
-        print(context)
         return render(request, "employees/employee_list.html", context)
         #return render(request, "employees/employee_list.html", context)
         

@@ -200,6 +200,9 @@
 
             {% block error %}
             {% endblock error %}
+
+            {% block search_list %}
+            {% endblock search_list %}
                 
             
             <!-- Table End -->
@@ -242,6 +245,7 @@
 
     <!-- Template Javascript -->
     <script src="{% static 'js/main.js' %}"></script>
+    {% block script %}{% endblock %}
 </body>
 
 </html>

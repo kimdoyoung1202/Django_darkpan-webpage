@@ -6,7 +6,28 @@ from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 
 from .form import DepartmentForm 
+import logging
+import time
 
+logger = logging.getLogger(__name__)
+
+def fetch_live(request) :
+    
+    logger.info("fetch_live in")
+    
+    return JsonResponse({
+        "fetch_live" : "ok"
+    })
+    
+def fetch_sleep(request) :
+    
+    logger.info("fetch_sleep in")
+    time.sleep(5)
+    
+    return JsonResponse({
+        "fetch_sleep " : "wait"
+    })
+    
 # Create your views here.
 def read(request) :
     # TODO : 비즈니스 로직 호출
@@ -65,6 +86,28 @@ class DepartmentsCreateView(CreateView) :
     success_url = reverse_lazy("departments:department_list")
     form_class = DepartmentForm
     
+    def form_valid(self, form):
+        logger.info("form_valid")
+
+        self.object = form.save()
+
+        # fetch 요청인지 확인
+        if self.request.headers.get("x-requested-with") == "fetch":
+            return JsonResponse({
+                "dept_no": self.object.dept_no,
+                "dept_name": self.object.dept_name
+            })
+
+        return super().form_valid(form)
+
+    def form_invalid(self, form):
+        if self.request.headers.get("x-requested-with") == "fetch":
+            return JsonResponse({
+                "errors": form.errors
+            }, status=400)
+
+        return super().form_invalid(form)
+    
 
 class DepartmentsUpdateView(UpdateView) :
     model = Departments
@@ -76,3 +119,5 @@ class DepartmentsUpdateView(UpdateView) :
 class DepartmentsDeleteView(DeleteView) :
     model = Departments
     success_url = reverse_lazy("departments:department_list")
+    
+
